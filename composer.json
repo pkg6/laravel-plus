@@ -1,0 +1,23 @@
+{
+  "name": "pkg6/laravel-plus",
+  "description": "Laravel framework enhanced version",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhiqiang",
+      "email": "zhiqiang2033@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Pkg6\\Laravel\\Plus\\": "src/"
+    },
+    "files": [
+      "src/Helper.php"
+    ]
+  },
+  "require-dev": {
+    "laravel/framework": "*"
+  }
+}
